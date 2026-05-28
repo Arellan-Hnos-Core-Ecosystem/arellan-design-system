@@ -1,0 +1,12 @@
+{
+  "extends": "@arellan/typescript-config/react-library.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "noEmit": true,
+    "paths": {
+      "@arellan/ui": ["../../packages/ui/src"],
+      "@arellan/ui/*": ["../../packages/ui/src/*"]
+    }
+  },
+  "include": [".storybook/**/*", "stories/**/*"]
+}

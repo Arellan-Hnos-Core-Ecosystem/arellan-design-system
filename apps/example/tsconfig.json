@@ -1,0 +1,7 @@
+{
+  "extends": "@arellan/typescript-config/react-library.json",
+  "include": ["src"],
+  "compilerOptions": {
+    "jsx": "react-jsx"
+  }
+}
