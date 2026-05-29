@@ -1,0 +1,21 @@
+{
+  "name": "@arellan-hnos-core-ecosystem/typescript-config",
+  "version": "0.1.0",
+  "private": false,
+  "main": "base.json",
+  "description": "Configuracion TypeScript base compartida para repos del ecosistema Arellan",
+  "files": [
+    "base.json",
+    "nextjs.json",
+    "react-library.json"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arellan-Hnos-Core-Ecosystem/arellan-design-system.git"
+  },
+  "license": "UNLICENSED"
+}

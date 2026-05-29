@@ -1,0 +1,38 @@
+{
+  "name": "arellan-design-system",
+  "private": true,
+  "description": "Sistema de diseno compartido — Clinica Automotriz Arellan Hnos",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "typecheck": "turbo run typecheck",
+    "clean": "turbo run clean",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,css,md}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,css,md}\"",
+    "publish:ui": "pnpm run build --filter=@arellan-hnos-core-ecosystem/ui && pnpm publish --filter=@arellan-hnos-core-ecosystem/ui",
+    "publish:all": "pnpm run build && pnpm publish --filter=@arellan-hnos-core-ecosystem/ui && pnpm publish --filter=@arellan-hnos-core-ecosystem/eslint-config && pnpm publish --filter=@arellan-hnos-core-ecosystem/typescript-config",
+    "version:ui": "pnpm version --filter @arellan-hnos-core-ecosystem/ui",
+    "storybook": "turbo run storybook --filter=@arellan-hnos-core-ecosystem/storybook",
+    "build-storybook": "turbo run build-storybook --filter=@arellan-hnos-core-ecosystem/storybook"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.0",
+    "turbo": "^2.3.0",
+    "typescript": "^5.5.0"
+  },
+  "packageManager": "pnpm@11.4.0",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arellan-Hnos-Core-Ecosystem/arellan-design-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Arellan-Hnos-Core-Ecosystem/arellan-design-system/issues"
+  },
+  "homepage": "https://github.com/Arellan-Hnos-Core-Ecosystem/arellan-design-system#readme"
+}
