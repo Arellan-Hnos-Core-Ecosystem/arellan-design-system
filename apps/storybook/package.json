@@ -9,8 +9,8 @@
     "build-storybook": "storybook build -o dist"
   },
   "devDependencies": {
-    "@arellan-hnos-core-ecosystem/typescript-config": "*",
-    "@arellan-hnos-core-ecosystem/ui": "*",
+    "@arellan-hnos-core-ecosystem/typescript-config": "workspace:*",
+    "@arellan-hnos-core-ecosystem/ui": "workspace:*",
     "@chromatic-com/storybook": "^2.0.0",
     "@storybook/addon-a11y": "^8.4.0",
     "@storybook/addon-essentials": "^8.4.0",
