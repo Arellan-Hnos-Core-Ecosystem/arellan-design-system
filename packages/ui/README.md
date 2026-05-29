@@ -5,7 +5,7 @@ Componentes React reutilizables y tokens de diseno para el ecosistema digital de
 ## Instalacion
 
 ```bash
-npm install @arellan-hnos-core-ecosystem/ui --registry=https://npm.pkg.github.com
+pnpm add @arellan-hnos-core-ecosystem/ui --registry=https://npm.pkg.github.com
 ```
 
 ### Configuracion .npmrc
