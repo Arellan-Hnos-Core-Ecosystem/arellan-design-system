@@ -1,5 +1,5 @@
 {
-  "name": "@arellan/storybook",
+  "name": "@arellan-hnos-core-ecosystem/storybook",
   "version": "0.1.0",
   "private": true,
   "description": "Storybook para documentacion visual del sistema de diseno Arellan",
@@ -9,7 +9,8 @@
     "build-storybook": "storybook build -o dist"
   },
   "devDependencies": {
-    "@arellan/ui": "*",
+    "@arellan-hnos-core-ecosystem/typescript-config": "*",
+    "@arellan-hnos-core-ecosystem/ui": "*",
     "@chromatic-com/storybook": "^2.0.0",
     "@storybook/addon-a11y": "^8.4.0",
     "@storybook/addon-essentials": "^8.4.0",

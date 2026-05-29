@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Checkbox } from '@arellan/ui'
+import { Checkbox } from '@arellan-hnos-core-ecosystem/ui'
 
 const meta: Meta<typeof Checkbox> = {
   title: 'Form/Checkbox',

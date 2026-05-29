@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Button, DropdownMenu } from '@arellan/ui'
+import { Button, DropdownMenu } from '@arellan-hnos-core-ecosystem/ui'
 
 const meta: Meta<typeof DropdownMenu> = {
   title: 'Overlay/DropdownMenu',

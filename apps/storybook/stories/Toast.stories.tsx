@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Toast } from '@arellan/ui'
+import { Toast } from '@arellan-hnos-core-ecosystem/ui'
 
 const meta: Meta<typeof Toast> = {
   title: 'Components/Toast',

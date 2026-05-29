@@ -1,4 +1,4 @@
-import '@arellan/ui/styles.css'
+import '@arellan-hnos-core-ecosystem/ui/styles.css'
 import type { Preview } from '@storybook/react'
 
 const preview: Preview = {

@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { FormField } from '@arellan/ui'
+import { FormField } from '@arellan-hnos-core-ecosystem/ui'
 
 const meta: Meta<typeof FormField> = {
   title: 'Form/FormField',

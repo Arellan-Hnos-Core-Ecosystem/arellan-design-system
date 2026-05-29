@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { EmptyState } from '@arellan/ui'
-import { Button } from '@arellan/ui'
+import { EmptyState } from '@arellan-hnos-core-ecosystem/ui'
+import { Button } from '@arellan-hnos-core-ecosystem/ui'
 
 const meta: Meta<typeof EmptyState> = {
   title: 'Display/EmptyState',

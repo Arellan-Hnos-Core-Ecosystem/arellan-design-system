@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Select } from '@arellan/ui'
+import { Select } from '@arellan-hnos-core-ecosystem/ui'
 
 const options = [
   { value: 'repuestos', label: 'Repuestos' },

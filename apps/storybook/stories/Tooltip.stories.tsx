@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Button, Tooltip } from '@arellan/ui'
+import { Button, Tooltip } from '@arellan-hnos-core-ecosystem/ui'
 
 const meta: Meta<typeof Tooltip> = {
   title: 'Overlay/Tooltip',

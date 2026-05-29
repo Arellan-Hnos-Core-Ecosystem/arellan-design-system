@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { StatusIndicator } from '@arellan/ui'
+import { StatusIndicator } from '@arellan-hnos-core-ecosystem/ui'
 
 const meta: Meta<typeof StatusIndicator> = {
   title: 'Components/StatusIndicator',

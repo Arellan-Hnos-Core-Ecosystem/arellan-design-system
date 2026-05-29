@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { TextArea } from '@arellan/ui'
+import { TextArea } from '@arellan-hnos-core-ecosystem/ui'
 
 const meta: Meta<typeof TextArea> = {
   title: 'Form/TextArea',

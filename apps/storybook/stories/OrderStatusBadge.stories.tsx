@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { OrderStatusBadge } from '@arellan/ui'
+import { OrderStatusBadge } from '@arellan-hnos-core-ecosystem/ui'
 
 const meta: Meta<typeof OrderStatusBadge> = {
   title: 'Business/OrderStatusBadge',

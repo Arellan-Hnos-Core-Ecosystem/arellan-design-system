@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Input } from '@arellan/ui'
+import { Input } from '@arellan-hnos-core-ecosystem/ui'
 
 const meta: Meta<typeof Input> = {
   title: 'Components/Input',

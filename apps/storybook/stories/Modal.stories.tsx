@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { useState } from 'react'
-import { Modal, Button } from '@arellan/ui'
+import { Modal, Button } from '@arellan-hnos-core-ecosystem/ui'
 
 const meta: Meta<typeof Modal> = {
   title: 'Components/Modal',

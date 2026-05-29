@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Container } from '@arellan/ui'
+import { Container } from '@arellan-hnos-core-ecosystem/ui'
 
 const meta: Meta<typeof Container> = {
   title: 'Layout/Container',

@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { CashAmount } from '@arellan/ui'
+import { CashAmount } from '@arellan-hnos-core-ecosystem/ui'
 
 const meta: Meta<typeof CashAmount> = {
   title: 'Business/CashAmount',

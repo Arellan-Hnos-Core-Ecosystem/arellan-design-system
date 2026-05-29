@@ -102,7 +102,7 @@ Seguimos [SemVer](https://semver.org/):
 
 ## Dependencias Externas
 
-El paquete `@arellan/ui` minimiza dependencias externas:
+El paquete `@arellan-hnos-core-ecosystem/ui` minimiza dependencias externas:
 
 - `class-variance-authority` — Para variantes de componentes
 - `clsx` — Para construccion de clases

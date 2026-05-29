@@ -65,9 +65,9 @@
 
 ### Initial Release
 
-- **@arellan/ui@0.1.0** — Paquete principal de componentes React + tokens de diseno
-- **@arellan/eslint-config@0.1.0** — Configuracion ESLint compartida
-- **@arellan/typescript-config@0.1.0** — Configuracion TypeScript base
+- **@arellan-hnos-core-ecosystem/ui@0.1.0** — Paquete principal de componentes React + tokens de diseno
+- **@arellan-hnos-core-ecosystem/eslint-config@0.1.0** — Configuracion ESLint compartida
+- **@arellan-hnos-core-ecosystem/typescript-config@0.1.0** — Configuracion TypeScript base
 
 ### Componentes incluidos
 

@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Accordion } from '@arellan/ui'
+import { Accordion } from '@arellan-hnos-core-ecosystem/ui'
 
 const meta: Meta<typeof Accordion> = {
   title: 'Display/Accordion',

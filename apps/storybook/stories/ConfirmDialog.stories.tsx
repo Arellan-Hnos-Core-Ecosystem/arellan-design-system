@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import type { Meta, StoryObj } from '@storybook/react'
-import { Button, ConfirmDialog } from '@arellan/ui'
+import { Button, ConfirmDialog } from '@arellan-hnos-core-ecosystem/ui'
 
 function ConfirmWrapper({ variant }: { variant: 'danger' | 'warning' | 'primary' }) {
   const [open, setOpen] = useState(false)

@@ -1,5 +1,5 @@
 {
-  "name": "@arellan/example",
+  "name": "@arellan-hnos-core-ecosystem/example",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -9,12 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@arellan/ui": "*",
+    "@arellan-hnos-core-ecosystem/ui": "*",
     "react": "^18.3.0",
     "react-dom": "^18.3.0"
   },
   "devDependencies": {
-    "@arellan/typescript-config": "*",
+    "@arellan-hnos-core-ecosystem/typescript-config": "*",
     "@types/react": "^18.3.0",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.0",

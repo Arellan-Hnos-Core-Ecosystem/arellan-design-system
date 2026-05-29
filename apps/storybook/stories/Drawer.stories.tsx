@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import type { Meta, StoryObj } from '@storybook/react'
-import { Button, Drawer } from '@arellan/ui'
+import { Button, Drawer } from '@arellan-hnos-core-ecosystem/ui'
 
 function DrawerWrapper({ position = 'right', size = 'md' }: { position?: 'left' | 'right'; size?: 'sm' | 'md' | 'lg' }) {
   const [open, setOpen] = useState(false)

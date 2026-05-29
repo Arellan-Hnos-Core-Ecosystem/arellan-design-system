@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Alert } from '@arellan/ui'
+import { Alert } from '@arellan-hnos-core-ecosystem/ui'
 
 const meta: Meta<typeof Alert> = {
   title: 'Components/Alert',

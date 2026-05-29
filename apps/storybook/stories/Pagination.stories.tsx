@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import type { Meta, StoryObj } from '@storybook/react'
-import { Pagination } from '@arellan/ui'
+import { Pagination } from '@arellan-hnos-core-ecosystem/ui'
 
 function PaginationWrapper({ totalPages: initialTotal = 10 }: { totalPages?: number }) {
   const [page, setPage] = useState(1)

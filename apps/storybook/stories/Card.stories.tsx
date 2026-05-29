@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Card, CardHeader, CardContent, CardFooter } from '@arellan/ui'
+import { Card, CardHeader, CardContent, CardFooter } from '@arellan-hnos-core-ecosystem/ui'
 
 const meta: Meta<typeof Card> = {
   title: 'Components/Card',

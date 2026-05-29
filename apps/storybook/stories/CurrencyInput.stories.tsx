@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { CurrencyInput } from '@arellan/ui'
+import { CurrencyInput } from '@arellan-hnos-core-ecosystem/ui'
 
 const meta: Meta<typeof CurrencyInput> = {
   title: 'Form/CurrencyInput',

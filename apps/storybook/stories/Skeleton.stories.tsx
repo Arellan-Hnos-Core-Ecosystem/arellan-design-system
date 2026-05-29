@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Skeleton } from '@arellan/ui'
+import { Skeleton } from '@arellan-hnos-core-ecosystem/ui'
 
 const meta: Meta<typeof Skeleton> = {
   title: 'Display/Skeleton',

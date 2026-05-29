@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Switch } from '@arellan/ui'
+import { Switch } from '@arellan-hnos-core-ecosystem/ui'
 
 const meta: Meta<typeof Switch> = {
   title: 'Form/Switch',

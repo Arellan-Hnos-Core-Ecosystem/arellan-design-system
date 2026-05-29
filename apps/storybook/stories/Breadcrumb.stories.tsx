@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Breadcrumb } from '@arellan/ui'
+import { Breadcrumb } from '@arellan-hnos-core-ecosystem/ui'
 
 const meta: Meta<typeof Breadcrumb> = {
   title: 'Navigation/Breadcrumb',

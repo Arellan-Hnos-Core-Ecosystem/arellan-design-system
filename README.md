@@ -1,6 +1,6 @@
 # arellan-design-system
 
-Sistema de diseno de la Clinica Automotriz Arellan Hnos. Paquete NPM privado `@arellan/ui` con tokens de diseno, componentes React reutilizables, hooks y utilidades compartidos entre todos los frontends del ecosistema.
+Sistema de diseno de la Clinica Automotriz Arellan Hnos. Paquete NPM privado `@arellan-hnos-core-ecosystem/ui` con tokens de diseno, componentes React reutilizables, hooks y utilidades compartidos entre todos los frontends del ecosistema.
 
 ## Descripcion
 
@@ -12,9 +12,9 @@ Sistema de diseno de la Clinica Automotriz Arellan Hnos. Paquete NPM privado `@a
 
 | Paquete | Descripcion |
 |---------|-------------|
-| `@arellan/ui` | Componentes React + tokens de diseno + hooks + utilidades |
-| `@arellan/eslint-config` | Configuracion ESLint compartida |
-| `@arellan/typescript-config` | Config TypeScript base |
+| `@arellan-hnos-core-ecosystem/ui` | Componentes React + tokens de diseno + hooks + utilidades |
+| `@arellan-hnos-core-ecosystem/eslint-config` | Configuracion ESLint compartida |
+| `@arellan-hnos-core-ecosystem/typescript-config` | Config TypeScript base |
 
 ## Stack Tecnologico
 
@@ -93,7 +93,7 @@ packages/
 │   │   ├── lib/
 │   │   │   └── utils.ts            # cn() utility (clsx + tailwind-merge)
 │   │   └── index.ts                # Export principal del paquete
-│   ├── package.json                # name: "@arellan/ui" v0.2.0
+│   ├── package.json                # name: "@arellan-hnos-core-ecosystem/ui" v0.2.0
 │   ├── tailwind.config.ts          # Tokens extendidos para Tailwind
 │   ├── vite.config.ts              # Library mode build config
 │   ├── vitest.config.ts            # Vitest + coverage thresholds
@@ -238,10 +238,10 @@ Sistema base 4px: `0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 5, 6, 8, 10, 12, 14, 16, 2
 
 ```bash
 # Requiere autenticacion con GitHub Packages
-npm install @arellan/ui --registry=https://npm.pkg.github.com
+npm install @arellan-hnos-core-ecosystem/ui --registry=https://npm.pkg.github.com
 
 # En .npmrc del repo consumidor:
-@arellan:registry=https://npm.pkg.github.com
+@arellan-tech:registry=https://npm.pkg.github.com
 //npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}
 ```
 
@@ -249,13 +249,13 @@ npm install @arellan/ui --registry=https://npm.pkg.github.com
 
 ```typescript
 // tailwind.config.ts
-import { tailwindConfig } from '@arellan/ui/tailwind'
+import { tailwindConfig } from '@arellan-hnos-core-ecosystem/ui/tailwind'
 
 export default {
   presets: [tailwindConfig],
   content: [
     './src/**/*.{ts,tsx}',
-    './node_modules/@arellan/ui/**/*.{js,ts,jsx,tsx}',
+    './node_modules/@arellan-hnos-core-ecosystem/ui/**/*.{js,ts,jsx,tsx}',
   ],
 }
 ```
@@ -263,8 +263,8 @@ export default {
 ## Uso Basico
 
 ```tsx
-import { Button, Badge, Input, Table, DataTable, ThemeProvider } from '@arellan/ui'
-import '@arellan/ui/styles.css'
+import { Button, Badge, Input, Table, DataTable, ThemeProvider } from '@arellan-hnos-core-ecosystem/ui'
+import '@arellan-hnos-core-ecosystem/ui/styles.css'
 
 function App() {
   return (
@@ -290,7 +290,7 @@ function OrdersList() {
 ### Ejemplo: Formulario de Gasto
 
 ```tsx
-import { FormField, Input, CurrencyInput, Select, Button } from '@arellan/ui'
+import { FormField, Input, CurrencyInput, Select, Button } from '@arellan-hnos-core-ecosystem/ui'
 
 function ExpenseForm() {
   return (
@@ -322,7 +322,7 @@ function ExpenseForm() {
 ### Ejemplo: Orden de Trabajo
 
 ```tsx
-import { Card, OrderStatusBadge, Badge, CashAmount, Button } from '@arellan/ui'
+import { Card, OrderStatusBadge, Badge, CashAmount, Button } from '@arellan-hnos-core-ecosystem/ui'
 
 function WorkOrderCard({ order }) {
   return (
@@ -367,7 +367,7 @@ npm run typecheck
 # Storybook local
 npm run storybook
 
-# Publicar @arellan/ui a GitHub Packages
+# Publicar @arellan-hnos-core-ecosystem/ui a GitHub Packages
 npm run publish:ui
 ```
 
@@ -424,7 +424,7 @@ export { variants as nuevoComponenteVariants }
 npm run publish:ui
 
 # Solo build
-npm run build --filter=@arellan/ui
+npm run build --filter=@arellan-hnos-core-ecosystem/ui
 
 # Version bump
 npm run version:ui patch   # v0.2.0 -> v0.2.1

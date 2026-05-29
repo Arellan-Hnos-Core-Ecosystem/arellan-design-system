@@ -31,7 +31,7 @@ import {
   Modal,
   DataTable,
   type Column,
-} from '@arellan/ui'
+} from '@arellan-hnos-core-ecosystem/ui'
 
 function ComponentShowcase({ title, children }: { title: string; children: React.ReactNode }) {
   return (

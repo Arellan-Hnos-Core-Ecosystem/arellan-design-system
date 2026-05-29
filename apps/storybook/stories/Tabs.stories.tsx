@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Tabs, TabsList, TabsTrigger, TabsContent } from '@arellan/ui'
+import { Tabs, TabsList, TabsTrigger, TabsContent } from '@arellan-hnos-core-ecosystem/ui'
 
 const meta: Meta<typeof Tabs> = {
   title: 'Display/Tabs',

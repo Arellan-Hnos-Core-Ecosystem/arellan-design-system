@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Avatar } from '@arellan/ui'
+import { Avatar } from '@arellan-hnos-core-ecosystem/ui'
 
 const meta: Meta<typeof Avatar> = {
   title: 'Display/Avatar',

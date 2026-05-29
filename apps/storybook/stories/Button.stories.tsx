@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Button } from '@arellan/ui'
+import { Button } from '@arellan-hnos-core-ecosystem/ui'
 
 const meta: Meta<typeof Button> = {
   title: 'Components/Button',
