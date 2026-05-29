@@ -1,0 +1,33 @@
+{
+  "name": "@arellan-hnos-core-ecosystem/eslint-config",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Configuracion ESLint compartida para repos del ecosistema Arellan",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.37.0",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.0.0 <10.0.0",
+    "typescript": ">=5.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arellan-Hnos-Core-Ecosystem/arellan-design-system.git"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  }
+}

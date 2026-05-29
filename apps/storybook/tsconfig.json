@@ -1,0 +1,12 @@
+{
+  "extends": "@arellan-hnos-core-ecosystem/typescript-config/react-library.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "noEmit": true,
+    "paths": {
+      "@arellan-tech/ui": ["../../packages/ui/src"],
+      "@arellan-tech/ui/*": ["../../packages/ui/src/*"]
+    }
+  },
+  "include": [".storybook/**/*", "stories/**/*"]
+}
