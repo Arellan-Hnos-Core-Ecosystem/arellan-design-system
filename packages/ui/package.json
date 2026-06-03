@@ -13,8 +13,9 @@
       "require": "./dist/index.cjs",
       "types": "./dist/index.d.ts"
     },
-    "./styles.css": "./dist/styles.css",
-    "./tailwind": "./dist/tailwind-plugin/index.js"
+    "./styles.css": "./dist/style.css",
+    "./tailwind": "./dist/tailwind/index.js",
+    "./tailwind/arellan-preset": "./dist/tailwind/arellan-preset.js"
   },
   "files": [
     "dist",
@@ -46,7 +47,7 @@
     "@arellan-hnos-core-ecosystem/typescript-config": "workspace:*",
     "@testing-library/jest-dom": "^6.5.0",
     "@testing-library/react": "^16.0.0",
-    "@types/react": "^18.3.0",
+    "@types/react": "^18.3.30",
     "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",

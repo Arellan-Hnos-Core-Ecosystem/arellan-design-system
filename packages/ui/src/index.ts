@@ -1,3 +1,5 @@
+import './styles.css'
+
 export { tokens, colors, typography, spacing, shadows, animations, breakpoints, breakpointQueries, borderRadius, zIndex } from './tokens'
 export type {
   BrandColor,
