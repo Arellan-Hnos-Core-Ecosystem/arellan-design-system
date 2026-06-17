@@ -100,10 +100,9 @@ export function Toast({
           <div
             ref={progressRef}
             className={cn(
-              'h-full rounded-b-lg',
+              'h-full w-full rounded-b-lg',
               resolvedVariant ? progressColors[resolvedVariant] : progressColors.info
             )}
-            style={{ width: '100%' }}
           />
         </div>
       )}

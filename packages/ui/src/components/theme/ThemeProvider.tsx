@@ -79,13 +79,13 @@ export function ThemeProvider({ children, defaultScheme = 'system' }: { children
     toggle,
   }
 
-  if (!mounted) {
-    return <div style={{ visibility: 'hidden' }}>{children}</div>
-  }
-
+  // Estructura SIEMPRE identica (Provider > div > children): cambiar el tipo
+  // del wrapper entre renders (div -> Provider) desmonta y remonta el arbol
+  // completo de la app al hidratar, disparando dobles fetch y errores de
+  // dispatcher de hooks (React #310) en produccion. Solo alterna visibility.
   return (
     <ThemeContext.Provider value={value}>
-      {children}
+      <div style={{ visibility: mounted ? 'visible' : 'hidden' }}>{children}</div>
     </ThemeContext.Provider>
   )
 }

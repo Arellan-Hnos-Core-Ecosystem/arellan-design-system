@@ -43,9 +43,12 @@ export interface ButtonProps
 }
 
 export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
-  ({ className, variant, size, fullWidth, isLoading, iconOnly, disabled, children, ...props }, ref) => {
+  // type por defecto "button": el default nativo del navegador es "submit",
+  // que dispara envios de formulario accidentales y alertas de semantica
+  ({ className, variant, size, fullWidth, isLoading, iconOnly, disabled, children, type = 'button', ...props }, ref) => {
     return (
       <button
+        type={type}
         className={cn(
           buttonVariants({ variant, size, fullWidth, className }),
           iconOnly && 'p-0'
